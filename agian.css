@@ -1,0 +1,41 @@
+header {
+    background-color: #824242;
+    color: #eeb645;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("image/06.jpg"); /* ตัวอย่าง: 'background.jpg' */
+        background-size: cover;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd0ae;
+}
+nav {
+    background-color: #824242;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family: fantasy;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0.1px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
